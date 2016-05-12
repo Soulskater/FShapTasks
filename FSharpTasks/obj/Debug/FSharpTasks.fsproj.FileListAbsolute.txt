@@ -1,0 +1,8 @@
+F:\Projects\FSharpTasks\FSharpTasks\bin\Debug\FSharpTasks.exe.config
+F:\Projects\FSharpTasks\FSharpTasks\bin\Debug\FSharpTasks.XML
+F:\Projects\FSharpTasks\FSharpTasks\bin\Debug\FSharpTasks.exe
+F:\Projects\FSharpTasks\FSharpTasks\bin\Debug\FSharpTasks.pdb
+F:\Projects\FSharpTasks\FSharpTasks\bin\Debug\FSharp.Core.dll
+F:\Projects\FSharpTasks\FSharpTasks\bin\Debug\FSharp.Core.xml
+F:\Projects\FSharpTasks\FSharpTasks\obj\Debug\FSharpTasks.exe
+F:\Projects\FSharpTasks\FSharpTasks\obj\Debug\FSharpTasks.pdb
