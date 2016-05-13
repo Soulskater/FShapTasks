@@ -4,9 +4,8 @@ let rec findlast =
   | [ a ] -> Some(a)
   | x :: xs -> findlast xs
 
-
-// Find last but one item in the list
-// Since you already defined reverse below, can you use that and findlast to 
+//Find last but one item in the list
+// Since you already defined reverse below, can you use that and findlast to
 // simplify?
 let rec findLastButOne =
   function
@@ -29,17 +28,9 @@ let rec reverse =
   function
   | [] -> []
   | x :: xs -> reverse xs @ [ x ]
-
-//Is the list palindrome
-let isPalindrome arr =
-  let rec equals arr1 arr2 =
-    match arr1, arr2 with
-    | [], [] -> 
-      true
-    | x :: xs, y :: ys ->
-      if x = y then equals xs ys else false
-  let rev = reverse arr
-  equals arr rev
+  
+// This is shorter :)
+let isPalindrome arr = reverse arr = arr
 
 // Technicially this is not a  list but a tree :)
 // Also you're not using the 'a for anything.
@@ -58,17 +49,15 @@ let flatten (items : list<List<'a>>) =
     match items with
     | [] -> acc
     | Single(s) :: tail -> flat (tail, acc @ [ s ])
-    | NestedList(n) :: tail -> flat (tail, flat (n, acc)) 
+    | NestedList(n) :: tail -> flat (tail, flat (n, acc))
   flat (items, [])
 
 // TODO
-let flat : Tree<'a> -> list<'a> = failwith ""
+let flat (tree: Tree<'a>) : list<'a> = failwith ""
 
 // TODO
-let flatList : list<Tree<'a>> -> list<'a> = failwith ""
+let flatList (ts: list<Tree<'a>>) : list<'a> = failwith ""
 
-let main =
-  let arr = [ 1; 2; 3; 4; 5; 4; 2; 2; 1 ]
 
 let arr1 =
   [ Single(10)
