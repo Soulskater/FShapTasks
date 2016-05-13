@@ -6,3 +6,11 @@ F:\Projects\FSharpTasks\FSharpTasks\bin\Debug\FSharp.Core.dll
 F:\Projects\FSharpTasks\FSharpTasks\bin\Debug\FSharp.Core.xml
 F:\Projects\FSharpTasks\FSharpTasks\obj\Debug\FSharpTasks.exe
 F:\Projects\FSharpTasks\FSharpTasks\obj\Debug\FSharpTasks.pdb
+F:\Projects\FShapTasks\FSharpTasks\bin\Debug\FSharpTasks.exe.config
+F:\Projects\FShapTasks\FSharpTasks\bin\Debug\FSharpTasks.XML
+F:\Projects\FShapTasks\FSharpTasks\bin\Debug\FSharpTasks.exe
+F:\Projects\FShapTasks\FSharpTasks\bin\Debug\FSharpTasks.pdb
+F:\Projects\FShapTasks\FSharpTasks\bin\Debug\FSharp.Core.dll
+F:\Projects\FShapTasks\FSharpTasks\bin\Debug\FSharp.Core.xml
+F:\Projects\FShapTasks\FSharpTasks\obj\Debug\FSharpTasks.exe
+F:\Projects\FShapTasks\FSharpTasks\obj\Debug\FSharpTasks.pdb
