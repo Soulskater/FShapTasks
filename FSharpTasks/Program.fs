@@ -27,17 +27,8 @@ let rec findLastButOne (items : 'a list) =
     | [] -> None
     | x :: xs -> Some(xs.Head)
 
-//Is the list palindrome
-let isPalindrome arr = 
-    let rec equals arr1 arr2 = 
-        match arr1, arr2 with
-        | [], [] -> true
-        | x :: xs, y :: ys -> 
-            if x = y then equals xs ys
-            else false
-    
-    let rev = reverse arr
-    equals arr rev
+// This is shorter :)
+let isPalindrome arr = reverse arr = arr
 
 // Technicially this is not a  list but a tree :)
 // Also you're not using the 'a for anything.
@@ -75,5 +66,10 @@ let main =
     printfn "palindrome list %A" (isPalindrome arr)
     printfn "Flat list %A" (flatten (arr1))
     0
+
+// TODO
+let flat (tree : Tree<'a>) : list<'a> = failwith ""
+// TODO
+let flatList (ts : list<Tree<'a>>) : list<'a> = failwith ""
 
 main |> ignore
